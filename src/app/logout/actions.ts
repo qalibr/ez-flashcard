@@ -8,6 +8,8 @@ import { createClient } from '@/utils/supabase/server'
 export async function logout() {
     const supabase = createClient();
 
+    console.log("Attempted to logout");
+
     const { error } = await supabase.auth.signOut();
 
     if (error) {
