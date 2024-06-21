@@ -20,6 +20,8 @@ export default function DeckManager() {
     setBoxes([...boxes, newBox]);
   };
 
+  // Testing
+
   const addDeckToBox = () => {
     if (selectedBoxIndex !== null) {
       const newDeck = createDeck();
