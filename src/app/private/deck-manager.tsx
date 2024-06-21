@@ -41,7 +41,7 @@ export default function DeckManager() {
 
   return (
       <div>
-        <h1 className="text-sky-500/100">Deck Manager</h1>
+        <h1 className="text-sky-400/100">Deck Manager</h1>
 
         {selectedBoxIndex === null ? (
             <>
